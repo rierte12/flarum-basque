@@ -1,13 +1,12 @@
-{
-    "name": "rierte12/basque-translation",
-    "description": "Translation for Basque language",
+    "name": "flarum/flarum-basque",
     "type": "flarum-extension",
+    "description": "Basque language pack.",
+    "keywords": ["locale"],
     "license": "MIT",
-    "minimum-stability": "dev",
     "require": {
-        "flarum/core": "^0.1.0-beta.8"
+        "flarum/core": "^0.1.0-beta.13"
     },
-   "extra": {
+    "extra": {
         "branch-alias": {
             "dev-master": "0.1.x-dev"
         },
@@ -15,13 +14,14 @@
             "title": "Basque",
             "icon": {
                 "image": "icon.svg",
-                "backgroundColor": "#AD1519",
+                "backgroundColor": "#00247d",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
             }
         },
-               "flarum-locale": {
-            "code": "es",
-            "title": "Spanish"
+        "flarum-locale": {
+            "code": "eu",
+            "title": "Basque"
         }
-   }
+    }
+}
