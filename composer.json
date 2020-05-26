@@ -2,9 +2,33 @@
     "name": "rierte12/basque-translation",
     "description": "Translation for Basque language",
     "type": "flarum-extension",
+    "license": "MIT",
     "require": {
-        "flarum/core": "^0.1.0@beta"
+        "flarum/core": "^0.1.0-beta.8"
     },
     "license": "MIT",
     "minimum-stability": "beta"
 }
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.8"
+    },
+   "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Spanish",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#AD1519",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+               "flarum-locale": {
+            "code": "es",
+            "title": "Spanish"
+        }
+   }
