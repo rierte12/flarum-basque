@@ -3,6 +3,7 @@
     "description": "Translation for Basque language",
     "type": "flarum-extension",
     "license": "MIT",
+    "minimum-stability": "v0.1.0-beta.13",
     "require": {
         "flarum/core": "^0.1.0-beta.8"
     },
