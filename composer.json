@@ -6,14 +6,6 @@
     "require": {
         "flarum/core": "^0.1.0-beta.8"
     },
-    "license": "MIT",
-    "minimum-stability": "beta"
-}
-    "type": "flarum-extension",
-    "license": "MIT",
-    "require": {
-        "flarum/core": "^0.1.0-beta.8"
-    },
    "extra": {
         "branch-alias": {
             "dev-master": "0.1.x-dev"
