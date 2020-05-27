@@ -1,0 +1,32 @@
+fof-best-answer:
+  admin:
+    permissions:
+      best_answer: Aukeratu erantzun hoberena (Eztabaidaren jabea)
+      best_answer_not_own_discussion: Aukeratu erantzun hoberena (ez jabeak)
+    settings:
+      title: FriendsOfFlarum Erantzun hoberena
+      allow_select_own_post: Baimendu erabiltzaileak haien erantzuna hoberena bezala marketzen
+      select_best_answer_reminder_days: Gogoratu erabiltzaileak X egun ondoren erantzun hoberena markatzeko
+      schedule_on_one_server: Erabili 'onOneServer()' direktiba lanaren plangintzarako (beharrezkoa da Redis/Memcache)
+      schedule_stop_overnight: Ez gogoratu erabiltzaileak email bidez ordu desegokietan (9pm - 8am zerbitzari denboran)
+      schedule_log_output: Atera plangintza logetan
+      remind_tag_ids: Kendu gogorapen plangintzatik kategoria hauek (separatu komen bidez)
+      use_alt_ui: Erabili beste txantiloi bat (erantzun hoberena oinaren botoiak)
+  forum:
+    answered_badge: Erantzunda
+    this_best_answer: Aukeratu erantzun hoberena bezala
+    remove_best_answer: Kendu erantzun hoberena bezala
+    best_answer_button: Erantzun hoberena
+    best_answer_label: bezala aukeratua <a>{username}gatik</a> {time_set}
+    errors:
+      mismatch: "Aukeratutako posta ez da eztabaida honetan existitzen"
+
+    notification:
+      best_answer_in_discussion: "{username} aukeratu du emaitz hoberena"
+      content: Mesedez, zure galdera erantzun bada aukeratu erantzun hoberena.
+      awarded: {username} aukeratu du zure emaitza hoberena bezala
+      awarded_email: Erabiltzaile batek aukeratu du zure posta hoberena.
+      select_email_title: Konpondu duzu zure galdera?
+      preferences:
+        awarded_best_answer: Nire post bat norbaitek hoberena bezala markatzen duenean
+        best_answer_in_discussion: Parte hartzen ari naizen eztabaida batean erantzun hoberen bat markatzean
