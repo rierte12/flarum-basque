@@ -1,0 +1,30 @@
+fof-discussion-language:
+  forum:
+    change_language:
+      edit_title: Aldatu hizkuntza {title}rentzako
+      title: Aldatu hizkuntza
+
+      submit_button: => core.ref.save_changes
+
+    composer_discussion:
+      choose_language_link: Hizkuntza
+
+    discussion_controls:
+      change_language_button: Aukeratu hizkuntza
+
+    index_language:
+      any: Edozein hizkuntza
+
+  admin:
+    settings:
+      title: Flarum eztabaiden hizkuntza
+
+      native_label: Erabili hizkuntza natiboak
+
+    permissions:
+      allow_change_language_label: Baimendu hizkuntzen edizioa
+
+  api:
+    discussion:
+      validation_error: Hizkuntz bat aukeratu behar duzu.
+
