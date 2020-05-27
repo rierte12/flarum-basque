@@ -9,21 +9,21 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "Desarrolladorea bat bazara, <a>dokumentazioa irakurri dezakezu</a> eta zure extensioa sor dezakezu."
-      install_text: "Bestela, <a>Flarum komunitateak </a>sortutako extensioak ikus ditzakezu eta Composer erabiliz instalatu."
-      temporary_text: "Egunen batean, hemen modu errezean igo halko dituzu extensioak zure forurako. Orain ekositema bat sortzen ari gara!"
-      title: Gehitu extensioa
+      developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
+      install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
+      temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
+      title: Add Extension
 
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: Koloreztatuako burua
-      colors_heading: Kolorea
-      colors_text: "Aukeratu zure txantiloirako bi kolore. Lehenengoa azpimarratzeko erabiliko da, bigarrena aldiz atzeko kolore bezala."
-      custom_footer_heading: Oinorri pertsonalizatua
+      colored_header_label: Colored Header
+      colors_heading: Colors
+      colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
+      custom_footer_heading: Custom Footer
       custom_footer_text: => core.ref.custom_footer_text
-      custom_header_heading: Buruorri pertsonalizatua
+      custom_header_heading: Custom Header
       custom_header_text: => core.ref.custom_header_text
-      custom_styles_heading: Estilu pertsonalizatua
+      custom_styles_heading: Custom Styles
       custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
       dark_mode_label: Dark Mode
       edit_css_button: Edit Custom CSS
