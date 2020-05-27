@@ -16,16 +16,16 @@ core:
 
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: Colored Header
-      colors_heading: Colors
+      colored_header_label: Orriburu koloreztatua
+      colors_heading: Koloreak
       colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
-      custom_footer_heading: Custom Footer
+      custom_footer_heading: Oinorri pertsonaliztua
       custom_footer_text: => core.ref.custom_footer_text
-      custom_header_heading: Custom Header
+      custom_header_heading: Orriburu pertsonalizatua
       custom_header_text: => core.ref.custom_header_text
-      custom_styles_heading: Custom Styles
+      custom_styles_heading: Estilu pertsonalizatua
       custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
-      dark_mode_label: Dark Mode
+      dark_mode_label: Ilun modua
       edit_css_button: Edit Custom CSS
       edit_footer_button: => core.ref.custom_footer_title
       edit_header_button: => core.ref.custom_header_title
