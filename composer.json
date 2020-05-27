@@ -7,6 +7,7 @@
     "require": {
         "flarum/core": "^0.1.0-beta.13"
     },
+    "minimum-stability": "beta",
     "extra": {
         "branch-alias": {
             "dev-master": "0.1.x-dev"
