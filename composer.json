@@ -1,5 +1,5 @@
 {
-    "name": "rierte112/flarum-basque": "beta",
+    "name": "rierte112/flarum-basque",
     "description": "Basque translarion for Flarum forum",
     "type": "flarum-extension",
     "require": {
