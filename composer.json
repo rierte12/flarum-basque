@@ -1,16 +1,28 @@
 {
-    "name": "rierte112/flarum-basque",
-    "description": "Basque translarion for Flarum forum",
+    "name": "rierte12/flarum-basque",
     "type": "flarum-extension",
-    "require": {
-        "flarum/core": "^0.1.0@beta"
-    },
+    "description": "Basque language pack.",
+    "keywords": ["locale"],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "rierte12",
-            "email": "rubenetxarri@gmail.com"
+    "require": {
+        "flarum/core": "^0.1.0-beta.13"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Euskara",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "es",
+            "title": "Basque"
         }
-    ],
-    "minimum-stability": "beta"
+    }
 }
