@@ -7,6 +7,12 @@
         "Basque",
         "Flarum"
     ],
+    "authors": {
+         "name": "Nils Adermann",
+         "email": "re1205@naseinu.eus",
+         "homepage": "https://naseinu.eus",
+         "role": "Developer"
+        },
     "license": "MIT",
     "require": {
         "flarum/core": "^0.1.0-beta.13"
