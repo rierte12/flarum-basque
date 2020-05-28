@@ -1,0 +1,40 @@
+fof-follow-tags:
+  forum:
+    settings:
+      notify_new_discussion_label: Norbaitek jarraitzen ari dudan etiketa batean eztabaida sortzen duenean
+      notify_new_post_label: Norbaitek jarraitzen ari naizen etiketa batean posteatzen duenean
+
+    index:
+      follow_tag_button: Jarraitu
+      unfollow_tag_button: Utzi jarraitzeari
+
+
+    sub_controls:
+      follow_button: => fof-follow-tags.ref.follow
+      following_button: => fof-follow-tags.ref.following
+      following_text: Eztabaida berri guztien berri izan.
+      hiding_button: => fof-follow-tags.ref.hiding
+      hiding_text: Ezkutatu eztabaida eztabaida guztien orritik.
+      ignoring_button: => fof-follow-tags.ref.ignoring
+      ignoring_text: Ez izan inoiz notifikatua.
+      lurking_button: => fof-follow-tags.ref.lurking
+      lurking_text: Notifikatuta izan eztabaida eta erantzun berri guztietatik.
+      not_following_button: Ez jarraitzen
+      not_following_text: "Notifikatuta izan bakarrik nik @mentzionatzean."
+      notify_alert_tooltip: Eztabaida eta posten berri izan foruan
+      notify_email_tooltip: Jaso email bat post eta eztabaida berriak sortzean
+      
+    notifications:
+      new_discussion_text: "{username} hasi du"
+      new_post_text: "{username} posteatu du"
+
+  email:
+    newDiscussionInTag: "[Tag | New Discussion] izenburua"
+    newPostInTag: "[Tag | New Post] Izenburua"
+
+  ref:
+    follow: Jarraitu
+    following: Jarraitzen
+    hiding: Ezkutatzen
+    ignoring: Ignoratu
+    lurking: Ikusten
