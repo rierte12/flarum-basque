@@ -12,6 +12,21 @@
         "flarum/core": "^0.1.0-beta.13"
     },
     "minimum-stability": "beta",
+    "suggest": {
+        "fof/nightmode": "A Flarum extension. Add a Night Mode for your users to use on your Flarum forum! (THE LIGHT, IT BUUUURNSSS!!!)",
+        "fof/best-answer": "A Flarum extension. Mark a post as the best answer in a discussion",
+        "fof/moderator-notes": "A Flarum extension. Create private notes for your forum users.",
+        "fof/discussion-language": "A Flarum extension. Specify the language a discussion is written in & sort by language.",
+        "fof/user-bio": "A Flarum extension. Re-add the user bio feature to Flarum.",
+        "fof/socialprofile": "A Flarum extension. Add custom social media pages to your user profile.",
+        "fof/merge": "A Flarum extension. Merge two or more discussions into one.",
+        "fof/pages": "A Flarum extension. Create custom static pages in Flarum",
+        "fof/reactions": "A Flarum extension. A Flarum extension that adds reactions to your Flarum Community",
+        "fof/split": "Allows splitting posts from discussions.",
+        "fof/terms": "This extension allows you to define a list of terms the user must agree to before using the forum.(GDRP require)",
+        "fof/follow-tags": "A Flarum extension. Follow tags and be notified of new discussions.",
+        "fof/spamblock": "A Flarum extension. Mark user as spammer, suspending them & hiding their posts and discussions."      
+    },
     "extra": {
         "flarum-extension": {
             "title": "Euskara",
@@ -28,3 +43,5 @@
         }
     }
 }
+
+
