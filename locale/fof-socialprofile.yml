@@ -1,0 +1,11 @@
+fof-socialprofile:
+  forum:
+    edit:
+      edit: Editatu
+      add: Gehitu
+      headtitle: Editatu botoiak
+      title: Izenburua
+      url: URL
+      submit: Gorde
+      delete: Borratu
+      deletetitle: Borratu botoia

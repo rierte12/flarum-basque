@@ -1,28 +1,28 @@
 fof-discussion-language:
   forum:
     change_language:
-      edit_title: Aldatu hizkuntza {title}rentzako
+      edit_title: Aldatu hizkuntza {title}-rentzako
       title: Aldatu hizkuntza
 
       submit_button: => core.ref.save_changes
 
     composer_discussion:
-      choose_language_link: Hizkuntza
+      choose_language_link: Hizkunta
 
     discussion_controls:
-      change_language_button: Aukeratu hizkuntza
+      change_language_button: Hizkuntza ezarri
 
     index_language:
       any: Edozein hizkuntza
 
   admin:
     settings:
-      title: Flarum eztabaiden hizkuntza
+      title: Flarum Eztabaidaren Hizkuntza
 
-      native_label: Erabili hizkuntza natiboak
+      native_label: Erabili hizkuntz natiboak
 
     permissions:
-      allow_change_language_label: Baimendu hizkuntzen edizioa
+      allow_change_language_label: Utzi hizkuntza aldatzen
 
   api:
     discussion:
