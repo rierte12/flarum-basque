@@ -2,7 +2,11 @@
     "name": "rierte12/flarum-basque",
     "type": "flarum-extension",
     "description": "Basque language pack.",
-    "keywords": ["locale"],
+    "keywords": [
+        "Naseinu",
+        "Basque",
+        "Flarum"
+    ],
     "license": "MIT",
     "require": {
         "flarum/core": "^0.1.0-beta.13"
