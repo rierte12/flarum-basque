@@ -1,4 +1,6 @@
 # Basque translation for flarum
+![Maintenance](https://img.shields.io/maintenance/yes/2020) ![Packagist Version](https://img.shields.io/packagist/v/rierte12/flarum-basque) ![GitHub](https://img.shields.io/github/license/rierte12/flarum-basque) ![GitHub All Releases](https://img.shields.io/github/downloads/rierte12/flarum-basque/total)
+===
 This is the Basque translation pack for Flarum. It can be used with the base installation of <a href="https://flarum.org/">Flarum forum</a>. It also include translations for the following <a href="https://github.com/FriendsOfFlarum">Friends of Flarum plugins</a>(not required to install the language pack):
 <br>
   1. <a href="https://github.com/FriendsOfFlarum/nightmode">Night Mode</a>
