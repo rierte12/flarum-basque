@@ -3,13 +3,21 @@
 ===
 This is the Basque translation pack for Flarum. It can be used with the base installation of <a href="https://flarum.org/">Flarum forum</a>. It also include translations for the following <a href="https://github.com/FriendsOfFlarum">Friends of Flarum plugins</a>(not required to install the language pack):
 <br>
-  1. <a href="https://github.com/FriendsOfFlarum/nightmode">Night Mode</a>
-  2. <a href="https://github.com/FriendsOfFlarum/best-answer">Best Answer</a>
-  3. <a href="https://github.com/FriendsOfFlarum/moderator-notes">Moderator Notes</a>
-  4. <a href="https://github.com/FriendsOfFlarum/discussion-language">Discussion Language</a>
-  5. <a href="https://github.com/FriendsOfFlarum/nightmode">Night Mode</a>
-  6. <a href="https://github.com/FriendsOfFlarum/user-bio">User Bio</a>
-  7. <a href="https://github.com/FriendsOfFlarum/socialprofile">Social Profile</a>
+  01. <a href="https://github.com/FriendsOfFlarum/nightmode">Night Mode</a>
+  02. <a href="https://github.com/FriendsOfFlarum/best-answer">Best Answer</a>
+  03. <a href="https://github.com/FriendsOfFlarum/moderator-notes">Moderator Notes</a>
+  04. <a href="https://github.com/FriendsOfFlarum/discussion-language">Discussion Language</a>
+  05. <a href="https://github.com/FriendsOfFlarum/nightmode">Night Mode</a>
+  06. <a href="https://github.com/FriendsOfFlarum/user-bio">User Bio</a>
+  07. <a href="https://github.com/FriendsOfFlarum/socialprofile">Social Profile</a>
+  08. <a href="https://github.com/FriendsOfFlarum/merge-discussions">Merge discussions</a>
+  09. <a href="https://github.com/FriendsOfFlarum/pages">Pages</a>
+  10. <a href="https://github.com/FriendsOfFlarum/reactions">Reactions</a>
+  11. <a href="https://github.com/FriendsOfFlarum/share-social">Share social</a>
+  12. <a href="https://github.com/FriendsOfFlarum/split">Split</a>
+  13. <a href="https://github.com/FriendsOfFlarum/terms">Terms</a>
+  14. <a href="https://github.com/FriendsOfFlarum/follow-tags">Follow tags</a>
+
   
 Will be Updated...
   
