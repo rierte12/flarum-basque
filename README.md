@@ -17,6 +17,7 @@ This is the Basque translation pack for Flarum. It can be used with the base ins
   12. <a href="https://github.com/FriendsOfFlarum/split">Split</a>
   13. <a href="https://github.com/FriendsOfFlarum/terms">Terms</a>
   14. <a href="https://github.com/FriendsOfFlarum/follow-tags">Follow tags</a>
+  15. <a href="https://github.com/FriendsOfFlarum/spamblock">Spamblock</a>
 
   
 Will be Updated...
