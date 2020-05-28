@@ -1,5 +1,5 @@
 # Basque translation for flarum
-This is the Basque translation pack for Flarum. It can be used with the base installation of Flarum. It also include translarions for the following Friends of Flarum plugins (not required to install the language pack):
+This is the Basque translation pack for Flarum. It can be used with the base installation of <a href="https://flarum.org/">Flarum forum</a>. It also include translations for the following <a href="https://github.com/FriendsOfFlarum">Friends of Flarum plugins</a>(not required to install the language pack):
 <br>
   1. <a href="https://github.com/FriendsOfFlarum/nightmode">Night Mode</a>
   2. <a href="https://github.com/FriendsOfFlarum/best-answer">Best Answer</a>
