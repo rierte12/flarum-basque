@@ -24,7 +24,7 @@ fof-best-answer:
     notification:
       best_answer_in_discussion: "{username} aukeratu du emaitz hoberena"
       content: Mesedez, zure galdera erantzun bada aukeratu erantzun hoberena.
-      awarded: {username} aukeratu du zure emaitza hoberena bezala
+      awarded: "{username} aukeratu du zure emaitza hoberena bezala"
       awarded_email: Erabiltzaile batek aukeratu du zure posta hoberena.
       select_email_title: Konpondu duzu zure galdera?
       preferences:
