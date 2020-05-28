@@ -14,8 +14,8 @@ flarum-tags:
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
       color_label: => core.ref.color
-      delete_tag_button: Borratu etiketa
-      delete_tag_confirmation: "Seguru zaude etiketa hau borratu nahi duzula? Etiketa honen barruko eztabaidak EZ dira borratuko."
+      delete_tag_button: Borratu kategoria
+      delete_tag_confirmation: "Seguru zaude kategoria hau borratu nahi duzula? kategoria honen barruko eztabaidak EZ dira borratuko."
       description_label: Deskripzioa
       hide_label: Ezkutatu eztabaida GUZTIETATIK
       icon_label: => core.ref.icon
@@ -33,7 +33,7 @@ flarum-tags:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: Baimendu etiketa edizioa
+      allow_edit_tags_label: Baimendu etiketen edizioa
       restrict_by_tag_heading: Erretrinjitu etiketak
       tag_discussions_label: Etiketatu diskusioak
 

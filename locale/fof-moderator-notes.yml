@@ -1,23 +1,23 @@
 fof-moderator-notes:
   admin:
     permissions:
-      createnotes: Crear notas de moderador
-      viewnotes: Ver las notas de moderación
+      createnotes: Sortu moderadore notak
+      viewnotes: Ikusi moderatzaileen notak
   forum:
     moderatorNotes:
-      created_text: "{username} ha creado esta nota {date}"
-      add_button: Nueva nota
-      create-heading: Crear una nota de moderador nueva
-      dismiss_button: Done
-      input_heading: Introduzca las notas para <strong>{username}</strong>
-      no_content_given: Las notas vacias no están permitidas.
-      noNotes: Parece que aquí no hay ninguna nota.
-      submit_button: Guardar nota
+      created_text: "{username} nota hau sortu du {date}"
+      add_button: Nota berria
+      create-heading: Sortu moderadore nota berria
+      dismiss_button: Egina
+      input_heading: Sartu <strong>{username}</strong>entzako notak
+      no_content_given: Hutsik dauden notak ez daude baimenduak.
+      noNotes: Hematen du ez dagoela notarik.
+      submit_button: Gorde nota
 
     user:
-      notes: Notas de moderador
+      notes: Moderatzaileen notak
 
   api:
-    auto_note: "Cambiado a este usuario: razón"
-    auto_note_actor: "Cambiado a 'uasuaro': razón"
-    no_reason_provided: No se ha dado una razón.
+    auto_note: "Aldatuta erbiltzaile honi : azrrazoia"
+    auto_note_actor: "Aldatua 'erabiltzailea': arrazoia"
+    no_reason_provided: Ez da heman arrazoirik.
