@@ -22,8 +22,8 @@ flarum-likes:
     # These translations are displayed beneath individual posts.
     post:
       like_link: Like
-      liked_by_self_text: "{users}(a)ri gustatzen zaio."  # Can be pluralized to agree with the number of users!
-      liked_by_text: "{users}ei gustatzen zaie.|{users}ei gustatzen zaie."
+      liked_by_self_text: "{users} gustoko du."  # Can be pluralized to agree with the number of users!
+      liked_by_text: "{users} gustoko du.|{users} gustoko dute."
       others_link: => core.ref.some_others
       unlike_link: Kendu likea
       you_text: => core.ref.you
