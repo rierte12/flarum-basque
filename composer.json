@@ -38,7 +38,7 @@
         "fof/follow-tags": "A Flarum extension. Follow tags and be notified of new discussions.",
         "fof/spamblock": "A Flarum extension. Mark user as spammer, suspending them & hiding their posts and discussions.",
         "fof/sitemap": "This extension simply adds a sitemap to your forum.",
-        "v17development/flarum-seo": "First Flarum extension that add SEO tags to your Flarum forum.",
+        "v17development/flarum-seo": "First Flarum extension that add SEO tags to your Flarum forum."
     },
     "extra": {
         "flarum-extension": {
