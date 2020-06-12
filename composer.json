@@ -36,7 +36,9 @@
         "fof/split": "Allows splitting posts from discussions.",
         "fof/terms": "This extension allows you to define a list of terms the user must agree to before using the forum.(GDRP require)",
         "fof/follow-tags": "A Flarum extension. Follow tags and be notified of new discussions.",
-        "fof/spamblock": "A Flarum extension. Mark user as spammer, suspending them & hiding their posts and discussions."      
+        "fof/spamblock": "A Flarum extension. Mark user as spammer, suspending them & hiding their posts and discussions."
+        "fof/sitemap": "This extension simply adds a sitemap to your forum."
+        "v17development/flarum-seo": "First Flarum extension that add SEO tags to your Flarum forum."
     },
     "extra": {
         "flarum-extension": {
