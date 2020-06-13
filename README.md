@@ -33,11 +33,20 @@ Will be Updated...
 **You must have installed Composer.** See how to use it in the official <a href="https://getcomposer.org/">website</a>
 
 ## Installation
-Go to the root directory of Flarum installation and run:
+**Go to the root directory of Flarum installation and run:**
+
+Request the package
 ```
 composer require rierte12/flarum-basque
 ```
 ### Update extension
+**Go to the root directory of Flarum installation and run:**
+
+Clear composer cache:
+```
+composer clear-cache
+```
+Request the update
 ```
 composer update rierte12/flarum-basque
 ```
