@@ -47,9 +47,9 @@ moment.locale('eu', {
         },
         relativeTime : {
             future : '%s buru',
-            past : 'hace %s',
-            s : 'degundu batzuk',
-            m : 'minuto bat',
+            past : 'duela %s',
+            s : 'segundu batzuk',
+            m : 'minutu bat',
             mm : '%d minutu',
             h : 'ordu bat',
             hh : '%d ordu',
