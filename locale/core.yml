@@ -7,13 +7,6 @@ core:
   # Translations in this namespace are used by the admin interface.
   admin:
 
-    # These translations are used in the placeholder Add Extension modal dialog.
-    add_extension:
-      developer_text: "Desarrolladore bat bazara,  <a>dokumentazioa irakur dezakezu</a> eta sortu zure aplikazio."
-      install_text: "Bestela, extensioak bila ditzakezu <a>Flarum Komunitate orrian</a> eta composer bidez instalatu."
-      temporary_text: "Egun batean, ez epe luzera, hemen extensioa igotzeko aukera hemango du. Oraitxe bertan, ekositema sortzen ari gara!"
-      title: Gehitu extensioa
-
     # These translations are used in the Appearance page.
     appearance:
       colored_header_label: Koloreztatutako orriburua
@@ -26,6 +19,7 @@ core:
       custom_styles_heading: Estilu pertsonalizatua
       custom_styles_text: Sartu zure CSS/LESS pertsonalizatua, estilo hauek Falrumekoa estiluen gainetik idatziko du.
       dark_mode_label: Gau modua
+      description: "Customize your forum's colors, logos, and other variables."
       edit_css_button: Editatu CSS pertsonalizatua
       edit_footer_button: => core.ref.custom_footer_title
       edit_header_button: => core.ref.custom_header_title
@@ -35,11 +29,15 @@ core:
       logo_heading: Logo
       logo_text: Igo foroaren izenburuaren ordez agertuko den irudia.
       submit_button: => core.ref.save_changes
+      title: Appearance
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Aurrezarritako hizkuntza
+      description: "Set your forum title, language, and other basic settings."
+      display_name_heading: User Display Name
+      display_name_text: Select the driver that should be used for users' display names. By default, the username is shown.
       forum_description_heading: Foroaren deskribapena
       forum_description_text: Idatzi zure komunitatea deskribatzen duen bat edo bi esaldi. Hau bilatzaileen metatag-ean agertuko da.
       forum_title_heading: Foroaren Izenburua
@@ -47,7 +45,10 @@ core:
       home_page_text: Aukeratu erabiltzailea ikusiko duen orria sartzen denean.
       saved_message: Aldaketak gorde dira.
       show_language_selector_label: Erakutsi hizkuntza aukeratzeko menua
+      slug_driver_heading: "Slug Driver: {model}"
+      slug_driver_text: Select a driver to be used for slugging this model.
       submit_button: => core.ref.save_changes
+      title: Basics
       welcome_banner_heading: Ongi etorri bannerra
       welcome_banner_text: Ezarri eztabaida guztiak orrian erakutsiko den bannerraren testai. Erabili hau ongi etorria emateko.
 
@@ -55,6 +56,8 @@ core:
     dashboard:
       clear_cache_button: Borratu Cachea
       tools_button: Tresnak
+      title: Dashboard
+      tools_button: Tools
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
@@ -91,38 +94,51 @@ core:
     # These translations are used in the email page of the admin interface.
     email:
       addresses_heading: Helbideak
+      description: "Configure the driver, settings and addresses your forum will use to send email."
       driver_heading: Aukeratu protokoloa
       driver_label: Protokoloa
       from_label: Bidaltzailea
-      heading: => core.ref.email
-      mail_encryption_label: Enkrptazioa
+      mail_encryption_label: Encryption
       mail_host_label: Host
-      mail_mailgun_domain_label: Domeinua
-      mail_mailgun_region_label: Erregioa
-      mail_mailgun_secret_label: Giltza sekretua
-      mail_mandrill_secret_label: Giltza sekretua
+      mail_mailgun_domain_label: Domain
+      mail_mailgun_region_label: Region
+      mail_mailgun_secret_label: Secret key
       mail_password_label: => core.ref.password
-      mail_port_label: Potua
-      mail_ses_key_label: Giltza
-      mail_ses_region_label: Erregioa
-      mail_ses_secret_label: Sekretua
+      mail_port_label: Port
       mail_username_label: => core.ref.username
-      mailgun_heading: Mailgun ezarpenak
-      mandrill_heading: Mandrill ezarpenak
-      not_sending_message: Flarum oraindik ez ditu emailak bidaltzen. Hau protokoloarengatik izan daiteke edo erroreak ezarpenetan.
-      ses_heading: SES Ezarpenak
-      smtp_heading: SMTP Ezarpenak
+      mailgun_heading: Mailgun Settings
+      not_sending_message: Flarum currently does not send emails. This can be due to the selected driver, or errors in its configuration.
+      send_test_mail_button: Send
+      send_test_mail_heading: Send Test Mail
+      send_test_mail_success: "Test mail sent successfully!"
+      send_test_mail_text: "This will send an email using the above configuration to your email, {email}."
+      smtp_heading: SMTP Settings
       submit_button: => core.ref.save_changes
-      text: Ezarr ze helbidetik, ze protutik eta zer protokoloa erabiliz bidaliko diren emailak.
+      title: => core.ref.email
 
     # These translations are used in the Extensions page.
-    extensions:
-      add_button: Gehitu extensioak
-      settings_button: => core.ref.settings
-      uninstall_button: Desinstalatu
+    extension:
+      confirm_uninstall: Uninstalling will remove all database entries and assets related to the extension. Are you sure you want to continue? 
+      disabled: Disabled
+      enabled: Enabled
+      enable_to_see: Enable the extension to view and change settings.
+      info_links:
+        discuss: Discuss
+        documentation: Documentation
+        donate: Donate
+        source: Source
+        support: Support
+        website: Website
+      no_permissions: This extension has no permissions.
+      no_settings: This extension has no settings.
+      open_modal: Open Settings
+      permissions_title: Permissions
+      saved_message: Your changes were saved.
+      uninstall_button: Uninstall
 
-    # These translations are used in the session dropdown menu.
+    # These translations are used in the secondary header.
     header:
+      get_help: Get Help
       log_out_button: => core.ref.log_out
 
     # These translations are used in the modal dialog displayed when loading extensions.
@@ -131,18 +147,27 @@ core:
 
     # These translations are used in the navigation bar.
     nav:
-      appearance_button: Aparientzia
-      appearance_text: "Pertsonalizatu foruaren koloreak, logoak, eta beste bariableak."
-      basics_button: Oinarrizkoak
-      basics_text: "Ezarri foruaren izenburua, hizkunza, eta beste oinarrizko ezarpenak."
-      dashboard_button: Arbela
-      dashboard_text: Zure foruaren aurreikusketa.
+      appearance_button: => core.admin.appearance.title
+      appearance_title: => core.admin.appearance.descriptio
+      basics_button: => core.admin.basics.title
+      basics_title: => core.admin.basics.description
+      categories:
+        authentication: Authentication
+        core: Core Configuration
+        discussion: Discussion
+        feature: Features
+        formatting: Formatting
+        language: Languages
+        moderation: Moderation
+        other: Other Extensions
+        theme: Themes
+      dashboard_button: => core.admin.dashboard.title
+      dashboard_title: => core.admin.dashboard.description
       email_button: => core.ref.email
-      email_text: "Konfiguratu zure email ezarpenak."
-      extensions_button: Extensioak
-      extensions_text: Gehitu beste funtzionalitateak zure forua zurea egiteko.
-      permissions_button: Baimenak
-      permissions_text: Konfiguratu zer ikus daiteken eta zer egin daiteke.
+      email_title: => core.admin.email.description
+      permissions_button: => core.admin.permissions.title
+      permissions_title: => core.admin.permissions.description
+      search_placeholder: Bilatu extensioak
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
@@ -153,6 +178,7 @@ core:
       delete_discussions_label: Borratu eztabaida
       delete_posts_forever_label: Borratu posta betiraki
       delete_posts_label: Borratu posta
+      description: Configure who can see and do what.
       edit_posts_label: Editatu posta
       edit_users_label: Editatu erabiltzailea
       global_heading: Globala
@@ -165,6 +191,7 @@ core:
       reply_to_discussions_label: Erantzun eztabaidak
       sign_up_label: Sortu kontua
       start_discussions_label: Hasi eztabaida
+      title: Permissions
       view_discussions_label: Ikusi ezarpenak
       view_hidden_groups_label: Ikusi ezkutatutako taldeak
       view_last_seen_at_label: Ikusi beste erabiltzaileen azken konexioa
@@ -189,7 +216,7 @@ core:
     # These translations are used in image upload buttons.
     upload_image:
       remove_button: => core.ref.remove
-      upload_button: Aukeratu argazkia...
+      upload_button: Aukeratu irudia...
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -228,8 +255,10 @@ core:
     # These translations are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: "Ez duzu aldaketak gorde. Alde batera utzi nahi duzu?"
+      edited_message: Your edit was made.
       post_link: "#{number}. posta {discussion}an"
       submit_button: => core.ref.save_changes
+      view_button: => core.ref.view
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
@@ -300,6 +329,7 @@ core:
       cannot_start_discussion_button: Ezin duzu eztabaida hasi
       mark_all_as_read_confirmation: "Seguru zaude irakurrita bezala ?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      meta_title_text: => core.ref.all_discussions
       refresh_tooltip: Eguneratu
       start_discussion_button: => core.ref.start_a_discussion
 
@@ -434,7 +464,9 @@ core:
 
     # These translations are displayed as error messages.
     error:
+      dependent_extensions_message: "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}"
       generic_message: "Iepa! Zerbait gaizki joan da. Freskatu orria eta saia zaitez berriro."
+      missing_dependencies_message: "Cannot enable {extension} until the following dependencies are enabled: {extensions}"
       not_found_message: Eskatutako errekurtsoa ez da aurkitu.
       permission_denied_message: Ez daukazu hori egiteko baimenaik.
       rate_limit_exceeded_message: Oso azkar zabiltza. Saiatu berriro segundu batzuk ondoren.
@@ -447,7 +479,7 @@ core:
     # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
-      three_text: "{first}, {second}, eta {third}"
+      three_text: "{first}, {second} eta {third}"
       two_text: "{first} eta {second}"
 
     # These translations are used to modify usernames.
@@ -544,6 +576,18 @@ core:
 
         Ez baduzu zure pashitza aldatu nahi, ez egin kasu email honi eta ez dira aldaketak egingo.
 
+    # These translations are used when testing mailing configuration
+    send_test:
+      subject: Flarum Email Test
+      body: |
+        Hey {username}!
+
+        This is a test email to confirm that your Flarum email configuration is working properly.
+
+        If this was you, this email means that your configuration works!
+
+        If this was not you, please ignore this email.
+        
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
   ##
@@ -589,6 +633,7 @@ core:
     start_a_discussion: Hasi eztabaida
     username: Erabiltzaile izena
     users: Erabiltzaileak                        # Referenced by flarum-statistics.yml
+    view: Ikusi
     write_a_reply: Idatzi erantzuna...
     you: Zuk                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
