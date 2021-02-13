@@ -1,15 +1,15 @@
 flarum-nicknames:
   admin:
     permissions:
-      edit_own_nickname_label: Edit own nickname
+      edit_own_nickname_label: Editatu nicknamea
     settings:
-      max_label: Maximum nickname length
-      min_label: Minimum nickname length
-      regex_label: Regular expression for validation
-      unique_label: Require unique nicknames?
-    wrong_driver: You must select "nickname" as the display name driver on the <a><strong>Basics Page</strong></a> for this extension to take effect.
+      max_label: Luzeera maximoa
+      min_label: Luzeera minimoa
+      regex_label: Balidazioa expresio erregularra
+      unique_label: Nickname unikoak eskatu?
+    wrong_driver: "nickname" aukeratu beharreko driverra ezarri behar duzu <a><strong>Gutxieneko orria</strong></a> extensio ezarpenetan funtzionatzeko.
   api:
-    invalid_nickname_message: This nickname is invalid. Please contact your forum administrator for more information on nickname rules.
+    invalid_nickname_message: Nickname hau ez da baliogarria. Kontaktatu kudeatzailea nickname erregelak jakiteko.
   forum:
     change_nickname:
       submit_button: => core.ref.save_changes
@@ -21,4 +21,4 @@ flarum-nicknames:
       change_nickname_button: => flarum-nicknames.ref.change_nickname
 
   ref:
-    change_nickname: Change Nickname
+    change_nickname: Aldatu Nickname
