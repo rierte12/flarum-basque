@@ -4,7 +4,10 @@ fof-best-answer:
       best_answer: Aukeratu erantzun hoberena (Eztabaidaren jabea)
       best_answer_not_own_discussion: Aukeratu erantzun hoberena (ez jabeak)
     settings:
-      title: FriendsOfFlarum Erantzun hoberena
+        general: General
+        reminders: Reminders
+        advanced: Advanced
+        reminders_notice: For reminders to function correctly, you must have set up the Flarum scheduler correctly.
       allow_select_own_post: Baimendu erabiltzaileak haien erantzuna hoberena bezala marketzen
       select_best_answer_reminder_days: Gogoratu erabiltzaileak X egun ondoren erantzun hoberena markatzeko
       schedule_on_one_server: Erabili 'onOneServer()' direktiba lanaren plangintzarako (beharrezkoa da Redis/Memcache)
@@ -25,8 +28,36 @@ fof-best-answer:
       best_answer_in_discussion: "{username} aukeratu du emaitz hoberena"
       content: Mesedez, zure galdera erantzun bada aukeratu erantzun hoberena.
       awarded: "{username} aukeratu du zure emaitza hoberena bezala"
-      awarded_email: Erabiltzaile batek aukeratu du zure posta hoberena.
       select_email_title: Konpondu duzu zure galdera?
       preferences:
         awarded_best_answer: Nire post bat norbaitek hoberena bezala markatzen duenean
         best_answer_in_discussion: Parte hartzen ari naizen eztabaida batean erantzun hoberen bat markatzean
+  email:
+    subject:
+      awarded: Your post was set as the best answer by {display_name}
+      ba-set: A best answer was set by {display_name}
+      select: Did you manage get your question answered?
+    body:
+      awarded: |
+        Aupa {recipient_display_name},
+
+        Zorionak, {actor_display_name}(e)k aukeratu du zure erantzuna '{discussion_title}' eztabaidan hoberena bezala. 
+        Eskerrik asko zure laguntza ematea gatik.
+
+        Ikus ezazu hemen: {discussion_url}
+      ba-set: |
+        Aupa {recipient_display_name},
+
+        {actor_display_name} aukeratu du erantzun hoberen bat '{discussion_title}', non zuk parte hartu duzun.
+
+        Ikus ezazu hemen: {discussion_url}
+      select: |
+        Aupa {recipient_display_name},
+
+        Bakarrik gogoratzeko; jada zure galderari erantzun asko izango dituzu.
+
+        Horrela bada, eta erantzun zuzen bat aurkitu baduzu, mesedez markatu zuzena gisa besteei laguntzeko
+
+        Ikusi eztabaida hemen: {discussion_url}, eta aukeratu erantzun hoberena.
+
+        Eskerrik asko!

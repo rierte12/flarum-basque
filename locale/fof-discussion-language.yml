@@ -17,7 +17,9 @@ fof-discussion-language:
 
   admin:
     settings:
-      title: Flarum Eztabaidaren Hizkuntza
+      native_label: Erabili hizkuntz natiboak
+      show_flag_label: Erakutsi herrialdeen  bandera izenaren ondoan
+      composer_default_label: Aurremarkatu hizkuntza editorean
 
       native_label: Erabili hizkuntz natiboak
 

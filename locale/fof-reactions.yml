@@ -15,9 +15,6 @@ fof-reactions:
         react_posts_label: Erreakzionatu postetara
         see_reactions_label: Ikusi nork erreakzionatu duen
 
-    nav:
-      desc: Gehitu erreakzio pertsonalizatuak edo aldatu ezarpenak.
-
     page:
       reactions:
         title: Erreakzio pertsonalizatua

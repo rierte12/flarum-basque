@@ -3,16 +3,19 @@ fof-moderator-notes:
     permissions:
       createnotes: Sortu moderadore notak
       viewnotes: Ikusi moderatzaileen notak
+       deletenotes: Borratu moderazio notak
   forum:
+    no_content_given: Nota hutsak ez daude baimenduta.
     moderatorNotes:
-      created_text: "{username} nota hau sortu du {date}"
+      created_text: "{username} sortu du nota bat {date}"
       add_button: Nota berria
-      create-heading: Sortu moderadore nota berria
+      create-heading: Sortu moderazio nota berri bat
       dismiss_button: Egina
-      input_heading: Sartu <strong>{username}</strong>entzako notak
-      no_content_given: Hutsik dauden notak ez daude baimenduak.
-      noNotes: Hematen du ez dagoela notarik.
-      submit_button: Gorde nota
+      input_heading: Idatzi zure notak <strong>{username}</strong>, entzat (markdown erabilgarria da)
+      noNotes: Ematen du ez daudela notarik.
+      submit_button: Gorde notak
+      delete: Borratu
+      confirm: Seguru zaude nota hau borratu nahi duzula?
 
     user:
       notes: Moderatzaileen notak
